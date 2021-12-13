@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 17, 2021 at 04:31 AM
+-- Generation Time: Nov 23, 2021 at 03:54 AM
 -- Server version: 5.6.41-84.1
 -- PHP Version: 7.3.32
 
@@ -77,7 +77,9 @@ CREATE TABLE `contacts` (
 INSERT INTO `contacts` (`id`, `name`, `email`, `phone`, `subject`, `message`, `created_at`, `updated_at`) VALUES
 (2, 'Muhammad Irfan', 'irfangujjar035@gmail.com', '03004261994', 'Notification', 'test', '2021-11-05 07:34:21', '2021-11-05 07:34:21'),
 (3, 'Muhammad Irfan', 'irfangujjar035@gmail.com', '03004261994', 'Hi', 'test', '2021-11-05 19:48:41', '2021-11-05 19:48:41'),
-(4, 'irfan', 'Irfangujjar035@gmail.com', '03004261994', 'Test', 'Test', '2021-11-11 02:28:00', '2021-11-11 02:28:00');
+(4, 'irfan', 'Irfangujjar035@gmail.com', '03004261994', 'Test', 'Test', '2021-11-11 02:28:00', '2021-11-11 02:28:00'),
+(5, 'Richardnib', 'glukhina.1998@mail.ru', '82825288284', 'заработок в интернете без вложений', 'доброго дня всем появился новый пасивнный зарбаток по прадаже трафика  зарегистрироватся можно <b><a href=https://r.honeygain.me/BIKON9A1AB>здесь</a></b>', '2021-11-17 19:31:15', '2021-11-17 19:31:15'),
+(6, 'Natehalaspors', 'NeilTuT1986@wlu.rambller.com', '81878375126', 'Рейтинги техники', '<a href=https://tehnoreiting.ru/>tehnoreiting.ru</a>', '2021-11-23 16:19:25', '2021-11-23 16:19:25');
 
 -- --------------------------------------------------------
 
@@ -367,7 +369,7 @@ ALTER TABLE `careers`
 -- AUTO_INCREMENT for table `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `migrations`
